@@ -1,0 +1,28 @@
+1. Features:
+Add and manage personal habits.
+Set daily or weekly habits.
+Mark habits as completed.
+Track current and longest streaks.
+View daily progress.
+View pending habits.
+Generate weekly and monthly reports.
+Delete habits.
+Store records using JSON files.
+
+2. Project structure:
+Personal_Habit_Tracker/
+│
+├── main.py
+├── habit_manager.py
+├── progress_manager.py
+├── report_manager.py
+├── storage.py
+├── utils.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── habits.json
+    └── progress.json
